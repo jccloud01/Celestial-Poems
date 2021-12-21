@@ -1,0 +1,418 @@
+
+
+.primary-button {
+    font-family: 'Noto Sans', sans-serif;
+    color: #ffffff;
+    background-color: #d3a248;
+    border-color: #d9d8af;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+
+:hover.primary-button {
+    color: #ffffff;
+    background-color: #598b87;
+    border-color: #86806f;
+}
+
+.secondary-button {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    border-color: #86806f;
+    background-color: #598b87;
+    margin: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+
+:hover.secondary-button {
+    color: #ffffff;
+    border-color: #9fa9aa;
+    background-color: #205a55;
+}
+
+.headLink {
+    text-decoration: none;
+}
+
+.headBackground {
+    background-color: #387973;
+
+}
+
+
+.drop-wrapper {
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.dropdown {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d3a248;
+    border-color: #d9d8af;
+    color: #ffffff;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+:hover.dropdown {
+    color: #ffffff;
+    background-color: #598b87;
+    border-color: #86806f;
+}
+
+
+
+
+/* Mobile version */
+
+@media only screen and (max-width: 750px) {
+
+.intro-box {
+    background-color: #cdc7bd7a;
+    box-shadow: #27251f 1px 2px 10px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    margin: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-header {
+    font-family: 'Roboto Mono', sans-serif;
+    color: #3b382f;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.intro-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #3b382f;
+    font-weight: 300;
+}
+
+.userInput {
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px 0 10px;
+    padding: 5px;
+}
+
+.poem-box {
+    background-color: #cdc7bd7a;
+    box-shadow: black 1px 2px 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.poem-box  p{
+    margin: 0;
+    text-align: center;
+}
+
+.poem-box input {
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 30px;
+    border-color: #fcc38c;
+    text-align: center;
+    margin: 5px 0 10px;
+    padding: 5px;
+}
+
+.poem-input-box {
+    margin-top: 15px;
+    margin: 20px;
+}
+
+.userInfo {
+    display: inline-flex;
+    position: relative;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.firstWord {
+    text-shadow:1px 2px 2px #3b382f;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+
+.expense-list-box {
+    margin: 5px;
+}
+
+.expense-list {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+.expenseAdd,
+.editTab {
+    text-shadow:2px 2px 5px #3b382f;
+    border: 2px;
+    border-color:#cdc7bd;
+    border-radius: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+.itemExpense {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:5px 2px 6px #3b382f;
+    background-color: #44918b79;
+    border-radius: 30px;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Noto Sans', sans-serif;
+    list-style: none;
+    padding: 20px;
+}
+
+.list-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    grid-column: 1;
+    text-align: left;
+}
+
+.list-amount {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    grid-column: 2;
+    text-align: right;
+
+}
+
+.intro-input {
+    display: none;
+}
+
+}
+
+
+
+
+/* Desktop Version */
+
+
+@media only screen and (min-width: 751px) {
+
+
+.intro-box {
+    background-color: #cdc7bd7a;
+    box-shadow: #27251f 1px 2px 10px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 20% 80%;
+    border-radius: 30px;
+    margin: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.intro-header {
+    grid-column: 1;
+    grid-row: 1;
+    display: inline-flex;
+    font-family: 'Roboto Mono', sans-serif;
+    color: #3b382f;
+    font-size: 35px;
+    font-weight: 800;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.intro-input {
+    grid-column: 2;
+    grid-row: 1;
+    display: inline-flex;
+    font-family: 'Roboto Mono', sans-serif;
+    color: #3b382f;
+    font-size: 35px;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.intro-text {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 40px;
+    display: inline-flex;
+    font-size: 25px;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #3b382f;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.formUser {
+    display: inline;
+    padding: 40px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.userInput {
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px 0 10px;
+    padding: 5px;
+    
+}
+
+
+.expense-box {
+    background-color: #cdc7bd7a;
+    box-shadow: black 1px 2px 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.expense-box  p{
+    margin: 0;
+    text-align: center;
+}
+
+.expense-box input {
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 30px;
+    border-color: #fcc38c;
+    text-align: center;
+    margin: 5px 0 10px;
+    padding: 5px;
+}
+
+.expense-input-box {
+    margin-top: 15px;
+    margin: 20px;
+}
+
+.userInfo {
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.firstWord {
+    text-shadow:1px 2px 2px #3b382f;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.secondWord {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.userName,
+.balRemainder,
+.income {
+    display: inline-block;
+    border-color: #3b382f;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 25px;
+    font-size: 25px;
+
+}
+
+.expense-list-box {
+    margin: 5px;
+}
+
+.expense-list {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+.expenseAdd,
+.editTab {
+    text-shadow:2px 2px 5px #3b382f;
+    text-align: center;
+    border: 2px;
+    border-color:#cdc7bd;
+    border-radius: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 15px;
+    padding: 20px;
+
+}
+
+.itemExpense {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:5px 2px 6px #3b382f;
+    background-color: #44918b79;
+    border-radius: 30px;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Noto Sans', sans-serif;
+    list-style: none;
+    padding: 20px;
+}
+
+.list-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    grid-column: 1;
+    text-align: left;
+}
+
+.list-amount {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    grid-column: 2;
+    text-align: right;
+
+}
+}
